@@ -140,13 +140,13 @@
       "languageVersion": "3.1"
     },
     {
-      "name": "app_pac",
+      "name": "pac",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-09-14T10:12:35.422586Z",
+  "generated": "2023-09-14T10:35:49.270175Z",
   "generator": "pub",
   "generatorVersion": "3.1.0"
 }

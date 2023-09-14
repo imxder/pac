@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:app_pac/login/widgets/email.widget.dart';
-import 'package:app_pac/login/widgets/forgetpassword.widget.dart';
-import 'package:app_pac/login/widgets/loginbutton.widget.dart';
-import 'package:app_pac/login/widgets/password.widget.dart';
+import 'package:pac/login/widgets/email.widget.dart';
+import 'package:pac/login/widgets/forgetpassword.widget.dart';
+import 'package:pac/login/widgets/loginbutton.widget.dart';
+import 'package:pac/login/widgets/password.widget.dart';
 
 class LoginView extends StatefulWidget {
   const LoginView({super.key});

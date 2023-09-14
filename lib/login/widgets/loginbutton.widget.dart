@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:app_pac/cadastro/cadastro.view.dart';
-import 'package:app_pac/home/home.view.dart';
+import 'package:pac/cadastro/cadastro.view.dart';
+import 'package:pac/home/home.view.dart';
 
 class LoginButtonField extends StatefulWidget {
   const LoginButtonField({super.key});
