@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pac/cadastro/widget/button.widget.dart';
 import 'package:pac/cadastro/widget/checkbox.widget.dart';
 
 class CadastroView extends StatefulWidget {
@@ -138,6 +139,12 @@ class _CadastroViewState extends State<CadastroView> {
               padding: EdgeInsets.symmetric(horizontal: 50), 
               child: TermosCheck(),
             ),
+            SizedBox(height: 10),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 110), 
+              child: BotaoCadastro(),
+            ),
+            
             SizedBox(height: 330),
             
           ],    
