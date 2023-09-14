@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:pac/login/widgets/email.widget.dart';
 import 'package:pac/login/widgets/forgetpassword.widget.dart';
 import 'package:pac/login/widgets/loginbutton.widget.dart';
+import 'package:pac/login/widgets/logo.widget.dart';
 import 'package:pac/login/widgets/password.widget.dart';
 
 class LoginView extends StatefulWidget {
@@ -39,6 +40,8 @@ class _LoginViewState extends State<LoginView> {
           padding: const EdgeInsets.all(12),
           children: const [
             SizedBox(height: 110),
+            LogoIcon(),
+            SizedBox(height: 100),
             Padding(padding: EdgeInsets.symmetric(horizontal: 40),
             child: EmailField(),
             ),
