@@ -13,13 +13,17 @@ class _EmailFieldState extends State<EmailField> {
     return const TextField(
       keyboardType: TextInputType.emailAddress,
       decoration: InputDecoration(
-        
-        labelText: 'Email',
+        //labelText: 'Email',
         hintText: 'Email',
         enabled: true,
         border: OutlineInputBorder(
           borderSide: BorderSide(
             color: Color.fromARGB(255, 255, 255, 255)
+          ),
+        ),
+          focusedBorder: OutlineInputBorder(
+          borderSide: BorderSide(
+            color: Color.fromARGB(255, 14, 64, 6),
           ),
         ),
       ),

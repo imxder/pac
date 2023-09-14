@@ -17,7 +17,7 @@ class _ForgetPasswordFieldState extends State<ForgetPasswordField> {
       child: const Text(
         "Esqueceu a senha?",
         style: TextStyle(
-          color: Color.fromARGB(255, 29, 81, 124), // Cor do texto do botão
+          color: Color.fromARGB(255, 14, 64, 6),
           decoration: TextDecoration.none,  
         ),
       ),

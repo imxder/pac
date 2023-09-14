@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pac/cadastro/widget/checkbox.widget.dart';
 
 class CadastroView extends StatefulWidget {
   const CadastroView({super.key});
@@ -37,7 +38,7 @@ class _CadastroViewState extends State<CadastroView> {
           shrinkWrap: true,
           padding: const EdgeInsets.all(12),
           children: const [
-            SizedBox(height: 40),
+            SizedBox(height:100),
             Padding(padding: EdgeInsets.symmetric(horizontal: 10),
               child: Text(
               'Digite seus dados abaixo para criar sua conta:', 
@@ -48,7 +49,7 @@ class _CadastroViewState extends State<CadastroView> {
               
               ),
             ),
-            SizedBox(height: 30),
+            SizedBox(height: 40),
             Padding(padding: EdgeInsets.symmetric(horizontal: 40),
               child: TextField(
                 keyboardType: TextInputType.name,
@@ -59,6 +60,11 @@ class _CadastroViewState extends State<CadastroView> {
                   border: OutlineInputBorder(
                     borderSide: BorderSide(
                       color: Color.fromARGB(255, 255, 255, 255)
+                    ),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Color.fromARGB(255, 14, 64, 6),
                     ),
                   ),
                 ),
@@ -77,6 +83,11 @@ class _CadastroViewState extends State<CadastroView> {
                       color: Color.fromARGB(255, 255, 255, 255)
                     ),
                   ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Color.fromARGB(255, 14, 64, 6),
+                    ),
+                  ),
                 ),
               ),
             ),
@@ -91,6 +102,11 @@ class _CadastroViewState extends State<CadastroView> {
                   border: OutlineInputBorder(
                     borderSide: BorderSide(
                       color: Color.fromARGB(255, 255, 255, 255),
+                    ),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Color.fromARGB(255, 14, 64, 6),
                     ),
                   ),
                 ),
@@ -109,10 +125,20 @@ class _CadastroViewState extends State<CadastroView> {
                       color: Color.fromARGB(255, 255, 255, 255),
                     ),
                   ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Color.fromARGB(255, 14, 64, 6),
+                    ),
+                  ),
                 ),
               ),
             ),
-            SizedBox(height: 450),
+            SizedBox(height: 10),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 50), 
+              child: TermosCheck(),
+            ),
+            SizedBox(height: 330),
             
           ],    
         ),
